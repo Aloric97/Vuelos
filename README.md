@@ -5,7 +5,7 @@ Proyectos de vuelos realizado con node y react
 # Para la carpeta backend
 
  1) ejecuté el comando "npm init" para crear un package que me guarde mis datos de la app y las librerias instaladas
-
+ 2) instalamos las primeras dependencias(express,sequelize)
 
 
 
