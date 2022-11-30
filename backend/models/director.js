@@ -29,13 +29,4 @@ const Director= db.define("director",{
     }
 )
 
-const jane = Director.build({
-    nombre:'leandro',
-    apellido:'tombetta',
-    DNI:'40035310',
-    fecha_nacimiento:'1997-01-10'
-})
-console.log(jane instanceof Director); // true
-
-jane.save()
 module.exports =Director
