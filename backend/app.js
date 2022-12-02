@@ -37,7 +37,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(directorRoutes)
 //codigo referido al servidor
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3001
 
 app.listen(PORT, (req,res)=>{
     console.log('Conexion al servidor')
